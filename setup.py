@@ -15,5 +15,6 @@ setup(
     author_email='threatlead@gmail.com',
     url='https://github.com/threatlead/',
     license=license,
-    packages=find_packages(exclude=('tests',))
+    packages=find_packages(exclude=('tests',)),
+    install_requires=['requests', ],
 )
